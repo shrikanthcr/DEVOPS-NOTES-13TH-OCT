@@ -1,0 +1,32 @@
+Git Branch Commands
+
+to check the branches 
+- git branch
+
+
+to create and checkout to newbranch
+- git checkout -b "newbranch"
+
+
+to switch to other branches
+- git checkout "branchname"
+
+
+to delete the branch
+- git branch -d "branchname"
+
+
+
+How to Clone a Specific Branch
+
+option1
+- git clone --branch <branchname> <remote-repo-url>
+- git clone -b <branchname> <remote-repo-url>
+
+
+
+To push the current branch and set the remote as upstream
+
+ Error message : current branch myfeature has no upstream branch in remote repo
+
+- git push --set-upstream origin "branchname"

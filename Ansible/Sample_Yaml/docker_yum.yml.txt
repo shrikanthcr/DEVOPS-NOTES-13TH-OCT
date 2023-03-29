@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: true
+  tasks:
+   - name: Install docker
+     ansible.builtin.yum:
+       name: docker
+       state: latest
+       
+   - name: start docker
+     service:
+        name: docker 
+        state: started   

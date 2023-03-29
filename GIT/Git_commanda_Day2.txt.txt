@@ -1,0 +1,49 @@
+To change as root user 
+- sudu su  
+
+To Update the amazon linux machine 
+- yum update
+
+
+To install git on amazon linux
+- yum install git
+
+
+To install git on ubuntu linux
+- apt-get install git
+
+
+to install  git on windows 
+https://git-scm.com/download/win
+
+
+to list the file and folders
+- ls
+
+to create a directory 
+- mkdir project1
+
+
+Git commands
+
+to clone the repo for first time 
+- git clone "repolink"
+
+to Add all the working files from working area to staging area
+- git add --all
+
+to Add all the working files one by one  from working area to staging area
+- git add filename,filename
+
+to commit the changes
+- git commit -m "message"
+
+
+to push the changes to remote server 
+- git push 
+
+to pull the changes to remote server 
+- git pull
+
+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
+

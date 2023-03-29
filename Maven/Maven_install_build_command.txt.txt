@@ -1,0 +1,44 @@
+For Linux Machine packages installer (Debain: Machine-Ubuntu)
+- apt-get 
+
+For Federro Machine packages installer (Centos, Redhat )
+- yum
+
+To update the packages
+- sudo yum  update
+
+
+To install java 
+- yum  install java-11
+
+
+to Install Maven
+- yum  install maven
+
+- mvm --version
+
+
+Need to generate  the POM.XML File ,we need to provide the values 
+
+- mvn archetype:generate
+
+
+Maven Build command 
+
+ - mvn clean package
+ 
+ 
+ Need to generate  the POM.XML File
+- mvn archetype:generate
+
+We need pass teh vaulues 
+
+Copy the pom file to the location  where the code is located 
+To Build 
+- mvn clean package
+
+Resources, Validate, compile, test, dependency plugins download and build 
+Then it will generae the .jar file and place it in the target folder(Target)
+
+
+First create a Snaptshot version then create the new Release version
